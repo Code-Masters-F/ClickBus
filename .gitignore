@@ -1,0 +1,25 @@
+app/node_modules/
+app/dist/
+app/.vite/
+app/*.tsbuildinfo
+app/vite.config.js
+app/vite.config.d.ts
+.pnpm-store/
+.tmp-chrome-qa/
+tmp/
+*.log
+.env
+.env.*
+app/.env
+app/.env.*
+# Saídas dos testes: relatórios, traces e cobertura são gerados a cada execução.
+app/test-results/
+app/playwright-report/
+app/coverage/
+# Documentação interna, material da disciplina, orientação para agentes e
+# configuração do app Claude ficam só na máquina local.
+# O guia versionado do projeto é o README.md da raiz.
+docs/
+academico/
+AGENTS.md
+.claude/
